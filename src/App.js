@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Featured from "./Components/FeaturedSection";
+import Footer from "./Components/Footer";
+import Hero from "./Components/Hero";
+import LatestWork from "./Components/LatestWork";
+import Marketing from "./Components/MarketingSection";
+import Nav from "./Components/Navbar";
+import Testimonials from "./Components/Testimonials";
+import WhyUS from "./Components/WhyUs";
+import { GlobalStyles } from "./GlobalStyles";
 
 function App() {
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyles />
+      <Nav />
+      <Hero />
+      <Featured />
+      <Marketing />
+      <WhyUS />
+      <LatestWork />
+      <Testimonials />
+      <Footer />
+    </>
   );
 }
 
