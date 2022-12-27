@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/zebraAgency/static/js/main.89972b70.js",
+    "main.js": "/zebraAgency/static/js/main.c092a66f.js",
     "static/media/Rubik-Regular.ttf": "/zebraAgency/static/media/Rubik-Regular.974ab100afa4538622da.ttf",
     "static/media/Rubik-Medium.ttf": "/zebraAgency/static/media/Rubik-Medium.9eca2a21c16a15364ea0.ttf",
     "static/media/CreatoDisplay-Bold.otf": "/zebraAgency/static/media/CreatoDisplay-Bold.07b3a53b2cf3578267fe.otf",
     "static/media/CreatoDisplay-Medium.otf": "/zebraAgency/static/media/CreatoDisplay-Medium.ee677d4fa2edd853d112.otf",
     "index.html": "/zebraAgency/index.html",
-    "main.89972b70.js.map": "/zebraAgency/static/js/main.89972b70.js.map"
+    "main.c092a66f.js.map": "/zebraAgency/static/js/main.c092a66f.js.map"
   },
   "entrypoints": [
-    "static/js/main.89972b70.js"
+    "static/js/main.c092a66f.js"
   ]
 }
